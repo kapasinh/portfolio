@@ -10,6 +10,7 @@ import sliceTexture from 'assets/slice-app.jpg';
 import sprTextureLarge from 'assets/berkeley-ai-group.png';
 import sprTexturePlaceholder from 'assets/spr-lesson-builder-dark-placeholder.jpg';
 import sprTexture from 'assets/berkeley-ai-group.png';
+import answersAiImage from 'assets/answers-ai.png';
 import { Footer } from 'components/Footer';
 import { Meta } from 'components/Meta';
 import { Intro } from 'layouts/Home/Intro';
@@ -89,7 +90,7 @@ export const Home = () => {
         buttonLink="https://www.berkeleyaigroup.com/"
         model={{
           type: 'laptop',
-          alt: 'Smart Sparrow lesson builder',
+          alt: 'Berkeley AI Group',
           textures: [
             {
               srcSet: [sprTexture, sprTextureLarge],
@@ -110,7 +111,7 @@ export const Home = () => {
         buttonLink="/projects/smart-sparrow"
         model={{
           type: 'laptop',
-          alt: 'App login screen',
+          alt: 'Adobe Atlas Screen',
           textures: [
             {
               srcSet: [gamestackTexture, gamestackTextureLarge],
@@ -125,15 +126,15 @@ export const Home = () => {
         visible={visibleSections.includes(projectThree.current)}
         index={3}
         title="Answers AI"
-        description="Redesigning the way students learn"
+        description="Rebuilding backend and frontend for production"
         buttonText="View project"
-        buttonLink="/projects/slice"
+        buttonLink="https://answersai.com"
         model={{
           type: 'laptop',
-          alt: 'Annotating a biomedical image in the Slice app',
+          alt: 'Building the frontend and Backend for Answers AI',
           textures: [
             {
-              srcSet: [sliceTexture, sliceTextureLarge],
+              srcSet: [answersAiImage, answersAiImage],
               placeholder: sliceTexturePlaceholder,
             },
           ],
